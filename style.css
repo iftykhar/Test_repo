@@ -1,0 +1,14 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#container {}
+
+p {
+    color: rgba(60, 157, 223, 0.89);
+}
+
+img {
+    width: fit-content;
+}
