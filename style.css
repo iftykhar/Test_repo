@@ -3,6 +3,12 @@ body {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(245, 197, 75);
+}
+
 #container {}
 
 p {
