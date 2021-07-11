@@ -7,15 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        img {
-            height: 60%;
-            width: 50%;
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 6px solid;
+        }
+        
+        .box:hover {
+            transform: scale(1.4);
+            transition: 4s ease-in;
         }
     </style>
 </head>
 
 <body>
-    <img src="images/tank.png" alt="tank">
+    <div class="field">
+        <div class="box">
+            <h3>transition</h3>
+        </div>
+    </div>
+
 </body>
 
 </html>
